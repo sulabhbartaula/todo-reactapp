@@ -1,5 +1,21 @@
+* {
+  margin: 0;
+}
 .App {
-  text-align: center;
+}
+
+.todoitem {
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid blue;
+  display: block;
+  background-color: darkgray;
+  font-weight: bolder;
+}
+
+.error {
+  color: var(--error-color);
+  font-weight: bolder;
 }
 
 .App-logo {
